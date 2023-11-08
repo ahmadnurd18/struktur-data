@@ -50,7 +50,7 @@ begin
   
   for i := 1 to 5 do
   begin
-    writeln(' ', i, '.   ', DaftarMakanan[i].Nama, '        ', DaftarMakanan[i].Banyaknya, '        ', DaftarMakanan[i].Harga:0:0, '        ', DaftarMakanan[i].Banyaknya * DaftarMakanan[i].Harga:0:0);
+    writeln(' ', i, '.   ', DaftarMakanan[i].Nama, '        ', DaftarMakanan[i].Banyaknya, '    ', DaftarMakanan[i].Harga:0:0, '    ', DaftarMakanan[i].Banyaknya * DaftarMakanan[i].Harga:0:0);
     Total := Total + DaftarMakanan[i].Banyaknya * DaftarMakanan[i].Harga;
   end;
   
